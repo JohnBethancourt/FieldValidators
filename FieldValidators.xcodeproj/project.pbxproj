@@ -11,6 +11,10 @@
 		BF68F4F825A5668B004D7FD4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF68F4F725A5668B004D7FD4 /* ContentView.swift */; };
 		BF68F4FA25A5668C004D7FD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF68F4F925A5668C004D7FD4 /* Assets.xcassets */; };
 		BF68F4FD25A5668C004D7FD4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF68F4FC25A5668C004D7FD4 /* Preview Assets.xcassets */; };
+		BF68F50625A56BF8004D7FD4 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF68F50525A56BF8004D7FD4 /* String+Ext.swift */; };
+		BF68F50A25A572F8004D7FD4 /* EmitterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF68F50925A572F8004D7FD4 /* EmitterView.swift */; };
+		BF68F51025A57531004D7FD4 /* MyScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = BF68F50F25A57531004D7FD4 /* MyScene.sks */; };
+		BF68F51325A57564004D7FD4 /* MyParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = BF68F51225A57564004D7FD4 /* MyParticle.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		BF68F4F925A5668C004D7FD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF68F4FC25A5668C004D7FD4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BF68F4FE25A5668C004D7FD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF68F50525A56BF8004D7FD4 /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
+		BF68F50925A572F8004D7FD4 /* EmitterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmitterView.swift; sourceTree = "<group>"; };
+		BF68F50F25A57531004D7FD4 /* MyScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyScene.sks; sourceTree = "<group>"; };
+		BF68F51225A57564004D7FD4 /* MyParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyParticle.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,11 +60,15 @@
 		BF68F4F425A5668B004D7FD4 /* FieldValidators */ = {
 			isa = PBXGroup;
 			children = (
-				BF68F4F525A5668B004D7FD4 /* FieldValidatorsApp.swift */,
 				BF68F4F725A5668B004D7FD4 /* ContentView.swift */,
+				BF68F50925A572F8004D7FD4 /* EmitterView.swift */,
+				BF68F4F525A5668B004D7FD4 /* FieldValidatorsApp.swift */,
+				BF68F50525A56BF8004D7FD4 /* String+Ext.swift */,
 				BF68F4F925A5668C004D7FD4 /* Assets.xcassets */,
 				BF68F4FE25A5668C004D7FD4 /* Info.plist */,
 				BF68F4FB25A5668C004D7FD4 /* Preview Content */,
+				BF68F50F25A57531004D7FD4 /* MyScene.sks */,
+				BF68F51225A57564004D7FD4 /* MyParticle.sks */,
 			);
 			path = FieldValidators;
 			sourceTree = "<group>";
@@ -127,7 +139,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF68F4FD25A5668C004D7FD4 /* Preview Assets.xcassets in Resources */,
+				BF68F51025A57531004D7FD4 /* MyScene.sks in Resources */,
 				BF68F4FA25A5668C004D7FD4 /* Assets.xcassets in Resources */,
+				BF68F51325A57564004D7FD4 /* MyParticle.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +152,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF68F50625A56BF8004D7FD4 /* String+Ext.swift in Sources */,
+				BF68F50A25A572F8004D7FD4 /* EmitterView.swift in Sources */,
 				BF68F4F825A5668B004D7FD4 /* ContentView.swift in Sources */,
 				BF68F4F625A5668B004D7FD4 /* FieldValidatorsApp.swift in Sources */,
 			);
